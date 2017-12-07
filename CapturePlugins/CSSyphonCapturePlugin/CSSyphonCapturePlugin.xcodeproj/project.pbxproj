@@ -251,6 +251,12 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Zakk;
+				TargetAttributes = {
+					34AFC1D219B04EB90007C07B = {
+						DevelopmentTeam = GEA9V3RYQE;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 34AFC1CE19B04EB90007C07B /* Build configuration list for PBXProject "CSSyphonCapturePlugin" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -409,7 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GEA9V3RYQE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -428,6 +437,7 @@
 					suppress,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Syphon-Framework/**";
 				WRAPPER_EXTENSION = bundle;
@@ -438,7 +448,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GEA9V3RYQE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -453,6 +466,7 @@
 					suppress,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Syphon-Framework/**";
 				WRAPPER_EXTENSION = bundle;

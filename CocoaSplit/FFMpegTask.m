@@ -223,8 +223,8 @@ void getAudioExtradata(char *cookie, char **buffer, size_t *size)
             pkt.data = (uint8_t *)sampledata;
         
             pkt.size = (int)buffer_length;
-            pkt.destruct = NULL;
-            
+//            pkt.destruct = NULL;
+        
             
             
             pkt.pts = av_rescale_q(pts.value, (AVRational) {1.0, pts.timescale}, _av_audio_stream->time_base);

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3400777016E6FE5D00097E8F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 347B7FC916907AFA00B5F4B3 /* libz.dylib */; };
 		3400A0621BD44DF0003E1828 /* CSInputLibraryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400A0611BD44DF0003E1828 /* CSInputLibraryItem.m */; };
 		3400A0791BD4533A003E1828 /* CSInputLibraryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400A0771BD4533A003E1828 /* CSInputLibraryWindowController.m */; };
 		3400A07A1BD4533A003E1828 /* CSInputLibraryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3400A0781BD4533A003E1828 /* CSInputLibraryWindowController.xib */; };
@@ -99,8 +98,6 @@
 		3451A1E41712C66E00DF6A8B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C6C3BE15FB5B440018A18B /* OpenGL.framework */; };
 		3451A1E51712C67900DF6A8B /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34792AFA1611A6B90065A859 /* IOSurface.framework */; };
 		3451A1E61712C6D200DF6A8B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34792AF516104AA70065A859 /* IOKit.framework */; };
-		3451A1E71712C7C400DF6A8B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 347B7FC916907AFA00B5F4B3 /* libz.dylib */; };
-		3451A1E81712C7D000DF6A8B /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 347B7FC516907A1700B5F4B3 /* libbz2.dylib */; };
 		3451A1E91712C7DE00DF6A8B /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347B7FC716907AE700B5F4B3 /* VideoDecodeAcceleration.framework */; };
 		3451A1EA1712C80400DF6A8B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340FE4A115F3417E00E4CE4E /* Cocoa.framework */; };
 		34559A281E12D4400085883C /* CSCaptureBase+InputFrameTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 34559A271E12D4400085883C /* CSCaptureBase+InputFrameTick.m */; };
@@ -163,7 +160,6 @@
 		3479A9971A9007DD00A524F0 /* CocoaSplit.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 3479A9961A9007DD00A524F0 /* CocoaSplit.sdef */; };
 		347B14DC198492D900DC7DF0 /* InputPopupControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347B14DA198492D900DC7DF0 /* InputPopupControllerViewController.m */; };
 		347B14DD198492D900DC7DF0 /* InputPopupControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347B14DB198492D900DC7DF0 /* InputPopupControllerViewController.xib */; };
-		347B7FC616907A1700B5F4B3 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 347B7FC516907A1700B5F4B3 /* libbz2.dylib */; };
 		347B7FC816907AE700B5F4B3 /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347B7FC716907AE700B5F4B3 /* VideoDecodeAcceleration.framework */; };
 		347BEAAB1E5BCBAF0026A094 /* CSOpenGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 347BEAAA1E5BCBAF0026A094 /* CSOpenGLLayer.m */; };
 		3481F30619B48C7C00CC76D8 /* SourceLayout+ScriptingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481F30519B48C7C00CC76D8 /* SourceLayout+ScriptingAdditions.m */; };
@@ -221,7 +217,6 @@
 		34C19053189EE60400AB2430 /* CapturedFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C19052189EE60400AB2430 /* CapturedFrameData.m */; };
 		34C19054189EE60400AB2430 /* CapturedFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C19052189EE60400AB2430 /* CapturedFrameData.m */; };
 		34C67B8E1A2E69F60012DC1B /* CSHitboxStreamServicePlugin.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 34C67B781A2D7B6A0012DC1B /* CSHitboxStreamServicePlugin.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		34C6C3BF15FB5B440018A18B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C6C3BE15FB5B440018A18B /* OpenGL.framework */; };
 		34CFE4A018F154DD00092C6A /* AVFChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE49F18F154DD00092C6A /* AVFChannelManager.m */; };
 		34CFE4A118F154DD00092C6A /* AVFChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE49F18F154DD00092C6A /* AVFChannelManager.m */; };
 		34CFE4A418F1992A00092C6A /* AVFAudioChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CFE4A318F1992A00092C6A /* AVFAudioChannel.m */; };
@@ -372,6 +367,11 @@
 		34FDA83E1A84C46500E7F65E /* CSTimeCapturePlugin.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 34FDA8191A84BF9400E7F65E /* CSTimeCapturePlugin.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		34FDD6F21A215268009A7413 /* CSPluginServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FDD6F11A215268009A7413 /* CSPluginServices.m */; };
 		34FDD6F31A215268009A7413 /* CSPluginServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FDD6F11A215268009A7413 /* CSPluginServices.m */; };
+		43418F571FD7877E00B5B338 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 43418F401FD7877D00B5B338 /* libiconv.tbd */; };
+		43418F591FD7887F00B5B338 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C6C3BE15FB5B440018A18B /* OpenGL.framework */; };
+		43418F5A1FD788DA00B5B338 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384B5D61FD63A9B000B6025 /* OpenCL.framework */; };
+		43418F5B1FD788FB00B5B338 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384B5DE1FD64278000B6025 /* libz.tbd */; };
+		43418F5C1FD7892000B5B338 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384B5E01FD64289000B6025 /* libbz2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -800,9 +800,7 @@
 		347B14D9198492D900DC7DF0 /* InputPopupControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputPopupControllerViewController.h; path = ../InputPopupControllerViewController.h; sourceTree = "<group>"; };
 		347B14DA198492D900DC7DF0 /* InputPopupControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputPopupControllerViewController.m; path = ../InputPopupControllerViewController.m; sourceTree = "<group>"; };
 		347B14DB198492D900DC7DF0 /* InputPopupControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InputPopupControllerViewController.xib; path = Interface/InputPopupControllerViewController.xib; sourceTree = "<group>"; };
-		347B7FC516907A1700B5F4B3 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
 		347B7FC716907AE700B5F4B3 /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
-		347B7FC916907AFA00B5F4B3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		347BEAA91E5BCBAF0026A094 /* CSOpenGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSOpenGLLayer.h; path = PluginHeaders/CSOpenGLLayer.h; sourceTree = "<group>"; };
 		347BEAAA1E5BCBAF0026A094 /* CSOpenGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSOpenGLLayer.m; sourceTree = "<group>"; };
 		3481F30419B48C7C00CC76D8 /* SourceLayout+ScriptingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SourceLayout+ScriptingAdditions.h"; path = "ScriptingAddditions/SourceLayout+ScriptingAdditions.h"; sourceTree = "<group>"; };
@@ -1051,6 +1049,10 @@
 		34FDD6DC1A204CE4009A7413 /* CAMultiAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMultiAudioEngine.h; path = CAMultiAudio/CAMultiAudioEngine.h; sourceTree = "<group>"; };
 		34FDD6F01A215268009A7413 /* CSPluginServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSPluginServices.h; path = PluginHeaders/CSPluginServices.h; sourceTree = "<group>"; };
 		34FDD6F11A215268009A7413 /* CSPluginServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPluginServices.m; sourceTree = "<group>"; };
+		43418F401FD7877D00B5B338 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		4384B5D61FD63A9B000B6025 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		4384B5DE1FD64278000B6025 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4384B5E01FD64289000B6025 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1058,6 +1060,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43418F5B1FD788FB00B5B338 /* libz.tbd in Frameworks */,
+				43418F5C1FD7892000B5B338 /* libbz2.tbd in Frameworks */,
+				43418F571FD7877E00B5B338 /* libiconv.tbd in Frameworks */,
+				43418F5A1FD788DA00B5B338 /* OpenCL.framework in Frameworks */,
+				43418F591FD7887F00B5B338 /* OpenGL.framework in Frameworks */,
 				340C7FE91D43D22000B2FD7D /* Security.framework in Frameworks */,
 				34EA824E1D3CBFCA00928A06 /* WebKit.framework in Frameworks */,
 				34E983701B78AE9100F26F1E /* Python.framework in Frameworks */,
@@ -1067,14 +1074,11 @@
 				345F8B1D1A12AC2C009A81E3 /* AudioUnit.framework in Frameworks */,
 				345F8B1A1A1218DE009A81E3 /* AudioToolbox.framework in Frameworks */,
 				3444D8E819A0CDE8000DC46B /* Quartz.framework in Frameworks */,
-				3400777016E6FE5D00097E8F /* libz.dylib in Frameworks */,
 				347B7FC816907AE700B5F4B3 /* VideoDecodeAcceleration.framework in Frameworks */,
-				347B7FC616907A1700B5F4B3 /* libbz2.dylib in Frameworks */,
 				341A2D5C1C7AB04700FF7566 /* Sparkle.framework in Frameworks */,
 				34A64A37165F208800A68428 /* QuartzCore.framework in Frameworks */,
 				34792AFB1611A6B90065A859 /* IOSurface.framework in Frameworks */,
 				34792AF616104AA70065A859 /* IOKit.framework in Frameworks */,
-				34C6C3BF15FB5B440018A18B /* OpenGL.framework in Frameworks */,
 				342346BB15F5FBD700C8C77E /* CoreMedia.framework in Frameworks */,
 				342346B915F5FBD200C8C77E /* CoreVideo.framework in Frameworks */,
 				342346AD15F59B0D00C8C77E /* VideoToolbox.framework in Frameworks */,
@@ -1097,8 +1101,6 @@
 				345F89861976113C00BD4062 /* QuartzCore.framework in Frameworks */,
 				3451A1EA1712C80400DF6A8B /* Cocoa.framework in Frameworks */,
 				3451A1E91712C7DE00DF6A8B /* VideoDecodeAcceleration.framework in Frameworks */,
-				3451A1E81712C7D000DF6A8B /* libbz2.dylib in Frameworks */,
-				3451A1E71712C7C400DF6A8B /* libz.dylib in Frameworks */,
 				3451A1E61712C6D200DF6A8B /* IOKit.framework in Frameworks */,
 				3451A1E51712C67900DF6A8B /* IOSurface.framework in Frameworks */,
 				3451A1E41712C66E00DF6A8B /* OpenGL.framework in Frameworks */,
@@ -1139,8 +1141,6 @@
 				34A7C1A219B9A42000BC6882 /* ExtraPlugins */,
 				34AFC2E619B08C1E0007C07B /* StreamServicePlugins */,
 				34AFC24419B058D80007C07B /* ImageUnitPlugins */,
-				347B7FC916907AFA00B5F4B3 /* libz.dylib */,
-				347B7FC516907A1700B5F4B3 /* libbz2.dylib */,
 				34AFC24319B058800007C07B /* CapturePlugins */,
 				34AE3C45164E53D00052C95E /* XPCShared */,
 				340FE4A715F3417E00E4CE4E /* CocoaSplit */,
@@ -1165,6 +1165,10 @@
 		340FE4A015F3417E00E4CE4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43418F401FD7877D00B5B338 /* libiconv.tbd */,
+				4384B5E01FD64289000B6025 /* libbz2.tbd */,
+				4384B5DE1FD64278000B6025 /* libz.tbd */,
+				4384B5D61FD63A9B000B6025 /* OpenCL.framework */,
 				340C7FE81D43D22000B2FD7D /* Security.framework */,
 				34EA824D1D3CBFCA00928A06 /* WebKit.framework */,
 				341A2D5B1C7AB04700FF7566 /* Sparkle.framework */,
@@ -1974,7 +1978,7 @@
 				3470F41519C849D9000A81C4 /* Copy Files */,
 				3460E5891AC766120080358E /* CopyFiles */,
 				343644051B78EFF90069B8F2 /* CopyFiles */,
-				34BAAD3B1C13DF8F00A48C76 /* ShellScript */,
+				34BAAD3B1C13DF8F00A48C76 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -2030,7 +2034,8 @@
 				ORGANIZATIONNAME = Zakk;
 				TargetAttributes = {
 					340FE49C15F3417E00E4CE4E = {
-						DevelopmentTeam = L3JLUY4S5E;
+						DevelopmentTeam = GEA9V3RYQE;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
 								enabled = 0;
@@ -2041,7 +2046,7 @@
 						};
 					};
 					3451A1C217111BD900DF6A8B = {
-						DevelopmentTeam = L3JLUY4S5E;
+						DevelopmentTeam = GEA9V3RYQE;
 					};
 				};
 			};
@@ -2370,13 +2375,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		34BAAD3B1C13DF8F00A48C76 /* ShellScript */ = {
+		34BAAD3B1C13DF8F00A48C76 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2706,7 +2712,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Zachary Girouard (L3JLUY4S5E)";
+				CODE_SIGN_IDENTITY = "Mac Developer: Omose Ogala (5HRUVY2QQW)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2722,7 +2728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
@@ -2736,7 +2742,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Zachary Girouard (L3JLUY4S5E)";
+				CODE_SIGN_IDENTITY = "Mac Developer: Omose Ogala (5HRUVY2QQW)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
@@ -2746,7 +2752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
@@ -2762,8 +2768,9 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = L3JLUY4S5E;
+				DEVELOPMENT_TEAM = GEA9V3RYQE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -2777,7 +2784,7 @@
 				INFOPLIST_FILE = "CocoaSplit/CocoaSplit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CODE_SIGN_FLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = (
 					/usr/local/lib/libswresample.a,
@@ -2787,10 +2794,11 @@
 					/usr/local/lib/libmp3lame.a,
 					/usr/local/lib/libswscale.a,
 					/usr/local/lib/libx264.a,
-					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = CocoaSplit;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = debugging;
 				WRAPPER_EXTENSION = app;
@@ -2807,9 +2815,10 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = L3JLUY4S5E;
+				DEVELOPMENT_TEAM = GEA9V3RYQE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -2823,7 +2832,7 @@
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "CocoaSplit/CocoaSplit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CODE_SIGN_FLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = (
 					/usr/local/lib/libswresample.a,
@@ -2834,10 +2843,11 @@
 					/usr/local/lib/libswscale.a,
 					/usr/local/lib/libx264.a,
 					"-flat_namespace",
-					"-all_load",
+					"-ObjC",
 				);
 				PRODUCT_NAME = CocoaSplit;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				STRIP_STYLE = debugging;
 				WRAPPER_EXTENSION = app;
@@ -2854,13 +2864,14 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				DEVELOPMENT_TEAM = GEA9V3RYQE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaSplitCmd/CocoaSplitCmd-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = (
 					/usr/local/lib/libavformat.a,
@@ -2887,13 +2898,14 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				DEVELOPMENT_TEAM = GEA9V3RYQE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaSplitCmd/CocoaSplitCmd-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				"OTHER_LDFLAGS[arch=*]" = (
 					/usr/local/lib/libavformat.a,
 					/usr/local/lib/libswscale.a,
@@ -2922,7 +2934,7 @@
 				GCC_PREFIX_HEADER = "QTCaptureHelper/QTCaptureHelper-Prefix.pch";
 				INFOPLIST_FILE = "QTCaptureHelper/QTCaptureHelper-Info.plist";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "zakk.lol.$(TARGET_NAME:rfc1034identifier)";
 				SDKROOT = macosx10.9;
@@ -2944,7 +2956,7 @@
 				GCC_PREFIX_HEADER = "QTCaptureHelper/QTCaptureHelper-Prefix.pch";
 				INFOPLIST_FILE = "QTCaptureHelper/QTCaptureHelper-Info.plist";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "zakk.lol.$(TARGET_NAME:rfc1034identifier)";
 				SDKROOT = macosx10.9;
 				VALID_ARCHS = "i386 x86_64";
